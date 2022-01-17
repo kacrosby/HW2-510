@@ -43,4 +43,4 @@ Create a private repo.  Add the instructor and the TA(s) as collaborators to the
 * your code
 * README.md with your answers
 
-Due Friday, Sept 29th @ Midnight.
+Due Thursday, March 3rd before Midnight.
