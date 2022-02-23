@@ -7,7 +7,7 @@
 ## WeatherBot Workshop (30%)
 
 This repo contains a modified version of the WeatherBot workshop. Following the [WeatherBot workshop instructions](https://github.ncsu.edu/CSC-510/WeatherBot), modify the code in your fork of HW2.  Complete the workshop activities, with this modification:
-* Add wind information.   Modify the default bot message from something like "overcast clouds and feels like 68.56" to "overcast clouds and feels like 68.56, with winds of [WINDSPEED] from a heading of [DIRECTION IN DEGREES]."
+* Add wind information.   Modify the default bot message from something like "overcast clouds and feels like 68.56" to "overcast clouds and feels like 68.56, with winds of [WINDSPEED] from a heading of [DIRECTION IN DEGREES]."  Where [WINDSPEED] etc. are from the values returned from the openweathermap api.
 
 Take a __screenshot__ of your personal channel on https://chat.robotcodelab.com showing your bot responding with weather and wind information.
 
