@@ -1,12 +1,13 @@
 # HW2
 
 * Due Thursday, March 3rd before Midnight.
-* Fork HW2 (this is different!) -- this will be your submission repo
+* [ ] Create a private repo HW2-510, with TAs, and instructor as collobrators.   (Failure to do this by the due date is -10% on your HW grade)
+* [ ] Copy the contents of this repo to your homework repo.
 
 
 ## WeatherBot Workshop (30%)
 
-The HW2 repo contains a modified version of the WeatherBot workshop. Following the [WeatherBot workshop instructions](https://github.ncsu.edu/CSC-510/WeatherBot), modify the code in your fork of HW2.  Complete the workshop activities, with this modification:
+The HW2 repo contains a modified version of the WeatherBot workshop. Following the [WeatherBot workshop instructions](https://github.ncsu.edu/CSC-510/WeatherBot), modify the code in your HW2 repo.  Complete the workshop activities, with this modification:
 * Add wind information.   Modify the default bot message from something like "overcast clouds and feels like 68.56" to "overcast clouds and feels like 68.56, with winds of [WINDSPEED] from a heading of [DIRECTION IN DEGREES]."  Where [WINDSPEED] etc. are from the values returned from the openweathermap api.
 
 Take a __screenshot__ of your personal channel on https://chat.robotcodelab.com showing your bot responding with weather and wind information.
@@ -36,7 +37,32 @@ Now you can run the tests in `test/test.js` from your repo directory.  In the co
 npx c8 npm test
 ```
 You should see something like:
+```
+❯ npx c8 npm test
 
+> mattermost-bot@1.0.0 test
+> mocha --reporter spec
+
+
+
+  WeatherBot Tests
+    ✔ ensures that hears() returns false on empty input
+    ✔ ensures that hears() returns turn
+    ✔ ensures that hears() returns false when not matched
+    ✔ ensures that bot can parse message and returns success
+
+
+  4 passing (31ms)
+
+------------|---------|----------|---------|---------|-------------------
+File        | % Stmts | % Branch | % Funcs | % Lines | Uncovered Line #s
+------------|---------|----------|---------|---------|-------------------
+All files   |   83.76 |    85.71 |      80 |   83.76 |
+ index.js   |   73.77 |       75 |   66.66 |   73.77 | 10-23,54-55
+ weather.js |   94.64 |      100 |     100 |   94.64 | 45-47
+------------|---------|----------|---------|---------|-------------------
+
+```
 
 Modify the tests so that you get >90% statement coverage.
 
