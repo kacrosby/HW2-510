@@ -1,7 +1,7 @@
 # HW2
 
 * Due Thursday, March 3rd before Midnight.
-* Fork HW2 -- this will be your submission directory
+* Fork HW2 (this is different!) -- this will be your submission repo
 
 
 ## WeatherBot Workshop (30%)
