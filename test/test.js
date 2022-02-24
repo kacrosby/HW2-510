@@ -31,8 +31,7 @@ describe("WeatherBot Tests", function() {
         let returnValue = bot.hears(msg, "boop")
     });
 
-    it("ensures that hears() returns false when not matched", function() {
-        // THIS TEST LOOKS FUNCTIONAL, BUT IT IS BROKEN -- FIX IT
+    it("ensures that bot can parse message and returns success", function() {         // THIS TEST PASSES, BUT IT IS BROKEN -- FIX IT
         // CREATE TEST OBJECT
         msg = {"broadcast": {"channel-id": 42 }};
         let returnValue = bot.parseMessage(msg)
