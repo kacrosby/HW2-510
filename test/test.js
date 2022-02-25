@@ -19,15 +19,13 @@ describe("WeatherBot Tests", function() {
     });
 
 
-    it("ensures that hears() returns turn", function() {
+    it("ensures that hears() returns true", function() {
         // CREATE TEST OBJECT
-        msg = {"data": {"post": JSON.stringify({"message": "Did someone say weather?"})}};
-        assert(bot.hears(msg, "weather"))
     });
 
     it("ensures that hears() returns false when not matched", function() {
         // THIS TEST PASSES, BUT IT IS BROKEN -- FIX IT
-        // SEE SLIDE #103 in https://github.ncsu.edu/CSC-510/Course/raw/main/Materials/Introduction-to-Testing.pdf
+        // search for  "Praggnanandhaa" in https://github.ncsu.edu/CSC-510/Course/raw/main/Materials/Introduction-to-Testing.pdf
         // CREATE TEST OBJECT
         msg = {"data": {"post": JSON.stringify({"message": "this is a test message"})}};
         bot.hears(msg, "boop");
