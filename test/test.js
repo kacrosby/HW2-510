@@ -30,18 +30,9 @@ describe("WeatherBot Tests", function() {
         // SEE SLIDE #103 in https://github.ncsu.edu/CSC-510/Course/raw/main/Materials/Introduction-to-Testing.pdf
         // CREATE TEST OBJECT
         msg = {"data": {"post": JSON.stringify({"message": "this is a test message"})}};
-        let returnValue = bot.hears(msg, "boop")
+        bot.hears(msg, "boop");
     });
 
-    it("ensures that bot can parse message and returns success", function() {        
-        // THIS TEST PASSES, BUT IT IS BROKEN -- FIX IT
-        // SEE SLIDE #103 in https://github.ncsu.edu/CSC-510/Course/raw/main/Materials/Introduction-to-Testing.pdf
-        // CREATE TEST OBJECT
-        msg = {"broadcast": {"channel-id": 42 }};
-        let returnValue = bot.parseMessage(msg)
-    });
-
-    // ADD YOUR TESTS HERE
 
 });
 

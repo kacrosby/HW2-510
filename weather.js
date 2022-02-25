@@ -22,7 +22,7 @@ function getWeather()
 {
     var latitude = "35.794238297241435"
     var longitude = "-78.69940445049596"
-    var units = "imperial"   // Alternatives:   "metric"
+    var units = "metric"   // Alternatives:   "imperial"
     let options = getDefaultOptions(`/weather?lat=${latitude}&lon=${longitude}&units=${units}`, "GET");
 
     return new Promise(function(resolve,reject)
