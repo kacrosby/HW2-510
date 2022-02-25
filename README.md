@@ -2,12 +2,14 @@
 
 * Due Thursday, March 3rd before Midnight.
 * [ ] Create a private repo HW2-510, with TAs, and instructor as collobrators.   (Failure to do this by the due date is -10% on your HW grade)
-* [ ] Copy the contents of this repo to your homework repo.
+* [ ] Copy the contents of this repo to your homework repo ([or change the remote git origin](https://stackoverflow.com/questions/2432764/how-to-change-the-uri-url-for-a-remote-git-repository)).
 
 
 ## WeatherBot Workshop (30%)
 
-The HW2 repo contains a modified version of the WeatherBot workshop. Following the [WeatherBot workshop instructions](https://github.ncsu.edu/CSC-510/WeatherBot), modify the code in your HW2 repo.  Complete the workshop activities, with this modification:
+The HW2 repo contains a modified version of the WeatherBot workshop. Following the [WeatherBot workshop instructions](https://github.ncsu.edu/CSC-510/WeatherBot), complete the workshop if you have not already done so.   
+
+Then complete modify the code as follows:
 * Add wind information.   Modify the default bot message from something like "overcast clouds and feels like 68.56" to "overcast clouds and feels like 68.56, with winds of [WINDSPEED] from a heading of [DIRECTION IN DEGREES]."  Where [WINDSPEED] etc. are from the values returned from the openweathermap api.
 
 Take a __screenshot__ of your personal channel on https://chat.robotcodelab.com showing your bot responding with weather and wind information.
@@ -64,7 +66,7 @@ All files   |   83.76 |    85.71 |      80 |   83.76 |
 
 ```
 
-Modify the tests so that you get >90% statement coverage.
+Add tests to `test/test.js` so that you get >90% statement coverage.
 
 
 
