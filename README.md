@@ -1,7 +1,7 @@
 # HW2
 
 * Due Thursday, March 3rd before Midnight.
-* [ ] Create a private repo HW2-510, with TAs, and instructor as collobrators.   (Failure to do this by the due date is -10% on your HW grade)
+* [ ] Create a private repo HW2-510, with TAs, and instructor as collobrators.   (Failure to do this by the due date is -10% on your HW grade, more if you don't change it promptly after notification.)
 * [ ] Copy the contents of this repo to your homework repo ([or change the remote git origin](https://stackoverflow.com/questions/2432764/how-to-change-the-uri-url-for-a-remote-git-repository)).
 
 
