@@ -26,7 +26,7 @@ Place your work and solution here:
    // YOUR WORK and SOLUTION
 ```
 
-## Test Coverage (60%)
+## Tests & Test Coverage (60%)
 
 In your repo directory, add the c8 code-coverage tool, using:
 ```
@@ -66,8 +66,8 @@ All files   |   83.76 |    85.71 |      80 |   83.76 |
 
 ```
 
-Add tests to `test/test.js` so that you get >90% statement coverage.
-
+* [ ] Add tests to `test/test.js` so that you get >90% statement coverage.
+* [ ] Fix the broken tests in `test/test.js` (see code comments)
 
 
 ## Evaluation
