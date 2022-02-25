@@ -7,7 +7,7 @@
 
 ## WeatherBot Workshop (30%)
 
-The HW2 repo contains a modified version of the WeatherBot workshop. Following the [WeatherBot workshop instructions](https://github.ncsu.edu/CSC-510/WeatherBot), complete the workshop if you have not already done so.   
+The HW2 repo contains a modified version of the WeatherBot workshop. Following the [WeatherBot workshop instructions](https://github.ncsu.edu/CSC-510/WeatherBot), complete the workshop if you have not already done so (but not the extended part! not required)   
 
 When you run `npm install` don't worry if you see `deprication warnings` -- this is expected.
 
