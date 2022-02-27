@@ -12,7 +12,7 @@ The HW2 repo contains a modified version of the WeatherBot workshop. Following t
 When you run `npm install` don't worry if you see `deprication warnings` -- this is expected.
 
 Then complete modify the code as follows:
-* Add wind information.   Modify the default bot message from something like "overcast clouds and feels like 68.56" to "overcast clouds and feels like 68.56, with winds of [WINDSPEED] [WINDSPEED UNITS] from a heading of [DIRECTION IN DEGREES]."  Where [WINDSPEED] etc. are either values returned from the openweathermap api or things you can infer from context.  For `[WINDSPEED UNITS]`, ensure that your message dynamically adjusts to print the right units, either from the imperial or metric system.
+* Add wind information.   Modify the default bot message from something like "overcast clouds and feels like 68.56" to "overcast clouds and feels like 68.56, with winds of [WINDSPEED] [WINDSPEED UNITS] from a heading of [DIRECTION IN DEGREES]."  Where [WINDSPEED] and [DIRECTION IN DEGREES] are values returned from the openweathermap api and `[WINDSPEED UNITS]` is based on the API query you provide.
 
 Take a __screenshot__ of your personal channel on https://chat.robotcodelab.com showing your bot responding with weather and wind information.
 
