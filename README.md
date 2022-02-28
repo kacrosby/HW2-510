@@ -68,7 +68,7 @@ All files   |   40.33 |       75 |      20 |   40.33 |
 
 ```
 
-* [ ] Add test to `test/test.js` so that you get >80% statement coverage for "All files."
+* [ ] Add tests to `test/test.js` so that you get >80% statement coverage for "All files."
 * [ ] Fix the broken test in `test/test.js` (see code comments)
 
 
