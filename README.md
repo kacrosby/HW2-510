@@ -13,7 +13,7 @@
 * [x] Take a __screenshot__ of your personal channel on https://chat.robotcodelab.com showing your bot responding with weather and wind information.
 
 Upload your screenshot to this repository and add image here, either inline or a link:
-* [LINK TO YOUR SCREENSHOT, HOSTED ON github.ncsu.edu]  OR  [INLINE SCREENSHOT]
+* [x] ![](img/weatherbotresponse.jpg)
 
 ## Information Space (10%)
 
