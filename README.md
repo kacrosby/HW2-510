@@ -21,7 +21,11 @@ Consider the URL `http://localhost:3000/pgiPc2`, where `pgiPc2` is a randomly ge
 
 Place your work and solution here, including the phrase: "The odd are 1 in [YOUR ANSWER]."
 ``` 
-   // YOUR WORK and SOLUTION
+   let x = 26 + 26 + 10;
+   let odds = x**6;
+   console.log(odds);
+   return 'The odd are 1 in ' + odds;
+   //The odd are 1 in 56,800,235,584
 ```
 
 ## Tests & Test Coverage (60%)
