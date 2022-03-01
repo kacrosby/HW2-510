@@ -28,7 +28,7 @@ describe("WeatherBot Tests", function() {
         // search for  "Praggnanandhaa" in https://github.ncsu.edu/CSC-510/Course/raw/main/Materials/Introduction-to-Testing.pdf
         // CREATE TEST OBJECT
         msg = {"data": {"post": JSON.stringify({"message": "this is a test message"})}};
-        bot.hears(msg, "boop");
+        assert(bot.hears(msg, "boop"));
     });
 
 
