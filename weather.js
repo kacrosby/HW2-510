@@ -22,7 +22,7 @@ function getWeather()
 {
     var latitude = "35.794238297241435"
     var longitude = "-78.69940445049596"
-    var units = "metric"   // Alternatives:   "imperial"
+    var units = "imperial"   // Alternatives:   "metric"
     let options = getDefaultOptions(`/weather?lat=${latitude}&lon=${longitude}&units=${units}`, "GET");
 
     return new Promise(function(resolve,reject)
@@ -31,14 +31,14 @@ function getWeather()
 			.then(function (response) {
         data = response.data
 
-        for (element in response){
-          if (response.hasOwnProperty(element)){  // Filter out prototypes' (parents') properties
-            console.log(element)
-          }
-        }
-        console.log('headers: ' + JSON.stringify(response.headers));
+         for (element in response){
+           if (response.hasOwnProperty(element)){  // Filter out prototypes' (parents') properties
+             console.log(element)
+           }
+         }
+         console.log('headers: ' + JSON.stringify(response.headers));
         console.log('data: ' + JSON.stringify(data));
-        var w = data.weather[0].description + " and feels like " + data.main.feels_like;
+        var w = data.weather[0].description + " and feels like " + data.main.feels_like + " degrees, with winds of " + data.wind.speed + " miles/hour" + " from a heading of " + data.wind.deg + " degrees";
         resolve(w);
 			})
 			.catch(function (error) {
@@ -50,7 +50,7 @@ function getWeather()
 }
 exports.getWeather = getWeather;
 
-// (async () => {
-//     let w = await getWeather();
-//     console.log(w);
-// })();
+(async () => {
+    let w = await getWeather();
+    console.log(w);
+})();

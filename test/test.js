@@ -20,8 +20,9 @@ describe("WeatherBot Tests", function() {
 
 
     it("ensures that hears() returns true", function() {
-        // CREATE TEST OBJECT
-    });
+        msg = {"data"};
+        let returnValue = bot.hears(msg)
+        assert(returnValue === true);    });
 
     it("ensures that hears() returns false when not matched", function() {
         // THIS TEST PASSES, BUT IT IS BROKEN -- FIX IT
