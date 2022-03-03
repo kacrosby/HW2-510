@@ -68,19 +68,5 @@ All files   |   40.33 |       75 |      20 |   40.33 |
 * [x] Fix the broken test in `test/test.js` (see code comments)
 * [x] test.js added
 
-## Evaluation
-
-* WeatherBot Workshop (30%)
-* Information Space (10%)
-* Test Coverage (60%)
 
 
-
-## Submission
-
-Create a private repo.  Add the instructor and the TA(s) as collaborators to the repo. Submit the link to your homework [here](https://docs.google.com/forms/d/e/1FAIpQLSfQ29aj5HSxIw4UEGBg_tDymHc2PTNanIrukiAOdZyISbfZng/viewform?usp=sf_link).
-
-* your code
-* README.md with your answers
-
-Due Thursday, March 3rd before Midnight.
