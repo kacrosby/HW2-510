@@ -38,7 +38,7 @@ function getWeather()
          }
          console.log('headers: ' + JSON.stringify(response.headers));
         console.log('data: ' + JSON.stringify(data));
-        var w = data.weather[0].description + " and feels like " + data.main.feels_like + " degrees, with winds of " + data.wind.speed + " miles/hour" + " from a heading of " + data.wind.deg + " degrees";
+        var w = data.weather[0].description + " and feels like " + data.main.feels_like + "with winds of " + data.wind.speed + " miles/hour" + " from a heading of " + data.wind.deg + " degrees";
         resolve(w);
 			})
 			.catch(function (error) {
