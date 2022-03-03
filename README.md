@@ -30,11 +30,6 @@ Place your work and solution here, including the phrase: "The odd are 1 in [YOUR
 
 ## Tests & Test Coverage (60%)
 
-In your repo directory, add the c8 code-coverage tool, using:
-```
-npm install c8 --save-dev
-```
-In the command above, the `--save-dev` option modifies `package.json`, adding the `c8` tool to the list of [dependencies](https://en.wikipedia.org/wiki/Dependency_hell), sometimes making the software more complex to maintain.   Commit this change to your repo (i.e. `git add package.json` followed by `git commit -m'adding c8 tool'` followed by `git push`).
 
 Now you can run the tests in `test/test.js` from your repo directory.  In the command below, `npx` is the "nodejs" execution command, which runs a node command (like `c8`) locally with having it installed in a module (like `index.js` or `weather.js`):
 ```
